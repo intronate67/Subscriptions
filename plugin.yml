@@ -1,0 +1,7 @@
+name: Subscriptions
+main: me.intronate67.Subscription.Subscriptions
+version: 1.0
+commands:
+   wl:
+      description: Whitelists a member for args[1] time.
+      usage: /<command> [player] [time]
