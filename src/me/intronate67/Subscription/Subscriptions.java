@@ -47,10 +47,10 @@ public class Subscriptions extends JavaPlugin{
 				pu.sendMessage("test1");
 			}else{
 				if(System.currentTimeMillis() > getConfig().getLong("players." + p)){
-                    pu.setWhitelisted(false);
-                    pu.kickPlayer("");
-                    pu.sendMessage("test2");
-                }
+                    			pu.setWhitelisted(false);
+                			pu.kickPlayer("");
+                    			pu.sendMessage("test2");
+                		}
 			}
 		}else{
 			this.getConfig().set("players." + p, firstJoin);
